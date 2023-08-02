@@ -1,0 +1,26 @@
+nav{
+    padding: 30px;
+    background-color: "#f4f4f4";
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: inherit;
+}
+.cart-link {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+@media screen and (min-width: 600px) {
+    nav {
+        padding: 30px 120px 30px 120px;
+    }
+    
+}

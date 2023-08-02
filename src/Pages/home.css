@@ -1,0 +1,14 @@
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* .cart {
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        padding: 30px 120px 30px 120px;
+    } */
+}

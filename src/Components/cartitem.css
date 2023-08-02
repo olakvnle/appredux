@@ -1,0 +1,31 @@
+.product-section {
+    display: flex;
+}
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.product-image {
+    width: 300px;
+    height: 300px;
+}
+.btn-group {
+    display: flex;
+    gap: 20px;
+}
+.btn,
+.btn-one {
+    background-color: #f5a623;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: normal;
+    cursor: pointer;
+    border: none;
+    color: white;
+    /* border-radius: 8px; */
+}
+.btn-one{
+    background-color: purple;
+}
