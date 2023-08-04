@@ -1,0 +1,21 @@
+.product_img {
+    width: 100px;
+    height: 100px;
+}
+
+.qty_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .product_sub_main {
+        display: flex;
+        flex-direction: row;
+        /*background-color: red; */
+        justify-content: "space-between";
+        margin-bottom: 24px;
+    }
+}

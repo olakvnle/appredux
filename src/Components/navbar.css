@@ -12,6 +12,20 @@ header {
     text-decoration: none;
     font-family: inherit;
 }
+
+.cart-qty {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.cart-qty > span {
+    position: absolute;
+    left: 40px;
+    top: -10px;
+}
+
 .cart-link {
     font-size: 20px;
     text-decoration: none;

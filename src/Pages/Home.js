@@ -8,9 +8,9 @@ function Home() {
   return (
     <>
       <Navbar/>
-      <div className='cart'>
+      <div className='cart-section'>
 {products.map((product) => {
-  return <Cartitems key = {product.id} product = {product} />;
+  return <Cartitems key = {product.id} {...product} />;
 })}
       </div>
     </>
