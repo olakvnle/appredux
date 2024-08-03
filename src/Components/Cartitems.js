@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import "./cartitem.css";
-import { addToCart, removeAll} from "../Redux/cartSlice";
+import {addToCart, removeAll} from "../Redux/cartSlice";
 function Cartitems({ id, title, image, price, description }){
     const cart = useSelector ((state) => state.cart.cart);
     const dispatch = useDispatch();
